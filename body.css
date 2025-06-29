@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #283c86, #45a247);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-box {
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 15px black;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #fbd786;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #ffe47a;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
